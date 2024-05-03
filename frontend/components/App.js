@@ -44,6 +44,7 @@ function App() {
   return (
     <div>
       <h2>Star Wars Characters</h2>
+      <p>See the README of the project for instructions on completing this challenge</p>
       {/* Map over the characters in state and render a Character component for each */}
       {characters.map(character => (
         <Character key={character.id} character={character} />
